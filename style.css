@@ -1,26 +1,42 @@
 body {
 background-color:#222223;
 color:#ffdded;
-font-size:20pt;
+font-size:18pt;
 }
 
 h1{
 	color:#aaf;
-	font-size:30pt;
+	font-size:26pt;
 }
 
 h2 {
 color:#afa;
-	font-size:25pt;
+	font-size:22pt;
 }
 
 h3 {
 	color:#33a;
-	font-size:15pt;
+	font-size:14pt;
+	margin-bottom:-7pt;
+		margin-top:-7pt;
+
 }
 
 h4 {
 color:#aaa;
-	font-size:15pt;
+	font-size:14pt;
 
+}
+
+img {
+	height:180pt;
+	width:820pt;
+    border-radius:60pt;
+    border:4pt solid #ffcdaa;
+}
+
+mark {
+text-decoration:underline;
+background-color:transparent;
+color:#44f;
 }
