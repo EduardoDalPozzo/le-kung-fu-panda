@@ -40,3 +40,18 @@ text-decoration:underline;
 background-color:transparent;
 color:#44f;
 }
+
+
+
+#sim {
+	height:5px;
+	width:5px;
+	border:none;
+	margin-top:-30pt;
+}
+
+#sim:hover {
+	scale:50000%;
+	transition-duration:2s;
+	opacity:0%;
+}
