@@ -1,28 +1,22 @@
+function tabua(){
+let numero = document.getElementById("numerinho");
+let tabuada = document.getElementById("tabuada");
 
-/*var nome= (window.prompt('teu nome?'))
-var nasceu= (window.prompt('nasceu quando?'))
-var idade= (window.prompt('tua idade?'))
-var email= (window.prompt('teu email?'))
-var CPF= (window.prompt('teu CPF?'))
+if (numero.value == 0 ) {
+window.alert("não pode 0, bocó");
+}
+else {
+let n = Number(numero.value);
+let j = 1;
+tabuada.innerHTML = ' '
 
+while (j <=10) {
+let item = document.createElement('option');
+item.text = `${n} x ${j} = ${n*j}`;
+item.value = `tabuada${j}`;
+tabuada.appendChild(item);
+j++
 
-window.alert ('o individuo : ' + nome + ',' + 'nasceu :' + nasceu + ','+'tem idade :' + idade +',' +'seu e-mail é :' + email + ','+'seu CPF :' + CPF + ',')
-
-var n1= Number.parseInt(window.prompt(' número'))
-var n2= Number.parseInt(window.prompt(' número'))
-var soma= n1 + n2 
-window.alert('o resultado da soma é: ' + soma + '!')
-*/
-
-var n1 = Number.parseInt(window.prompt('Digite um número: '))
-var n2 = Number.parseInt(window.prompt('Digite outro número'))
-
-var soma= n1 + n2 
-var sub = n1 - n2
-var mult = n1*n2
-var div = n1/n2
-var pot = n1**n2
-
-
-window.alert('o resultado dessas operações são: soma:' + soma + '_____subtração:' + sub +
-'_____multiplicação:' + mult + '_____divisão:' + div + '_____potenciação:' + pot )
+}
+}
+}

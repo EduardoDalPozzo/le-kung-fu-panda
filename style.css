@@ -55,3 +55,30 @@ color:#44f;
 	transition-duration:2s;
 	opacity:0%;
 }
+
+
+section {
+zoom:189%;
+}
+
+#quadrado {
+background:#f00;
+border:2px solid #000;
+display:flex;
+
+}
+
+#boto {
+height:165px;
+float:left;
+margin-left:40%;
+}
+
+#tabuada {
+float:left;
+}
+
+
+label {
+margin-left:40%;
+}
