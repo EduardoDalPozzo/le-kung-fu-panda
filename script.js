@@ -22,7 +22,7 @@ tabuada.innerHTML = ' '; /*e esvazia a tabuada*/
 while (multiplicador <=10) { /*enquanto o multiplicador n chegar em 10 vai ficar rodando em loop esse bloco*/
 let item = document.createElement('option'); /* define a variavel item como um elemento novo que ele cria*/
 /*é uma option, que é o elemento que fica dentro do select.*/
-item.text = `${n} x ${multiplicador} = ${n*multiplicador}`; /* define o texto desse item como uma das multiplicações*/
+item.text = `${n} x ${multiplicador} = ${n*multiplicador}`; /* define o texto desse item como a multiplicação atual*/
 item.value = `tabuada${multiplicador}`; /*define o value como a tabuada do multiplicador atual*/
 tabuada.appendChild(item); /*ele deixa esse item dentro da tabuada*/
 multiplicador++ /*aumenta em 1 o multiplicador*/
